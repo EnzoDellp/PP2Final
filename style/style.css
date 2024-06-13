@@ -1,0 +1,42 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #444040;
+}
+
+/* Login */
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  max-width: 300px;
+}
+
+/* DashBoard */
+.cardDashboard {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+.card-headerDash {
+  background-color: #f8f9fa;
+}
+.nav-pills .nav-link .navDash {
+  margin-right: 10px;
+}
+
+.nav-pills.nav-link.active {
+  background-color: #007bff;
+}
+
+.resumen {
+  margin-top: 20px;
+}
