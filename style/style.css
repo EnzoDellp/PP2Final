@@ -40,3 +40,45 @@ html {
 .resumen {
   margin-top: 20px;
 }
+
+/* Asignar Turnos */
+.cardTurnos {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+.cardHeaderTurnos {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+.calendario {
+  background-color: #e9acef;
+  border-radius: 0.25rem;
+}
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+.inputTurno {
+  max-width: 500px;
+  margin: auto;
+}
+/* Consultorios */
+.cardConsul {
+  width: 100%;
+  min-width: 500px;
+  max-width: 800px;
+  margin: auto;
+}
+.consultorioHeader {
+  background-color: #f8f9fa;
+}
+.rowMargin {
+  margin-bottom: 15px;
+}
+.hr {
+  margin: 0;
+}
+.btnConsul {
+  width: 200px;
+}
